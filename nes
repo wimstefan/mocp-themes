@@ -1,0 +1,38 @@
+# Theme inspired by the NES
+
+
+background           = white black
+current_time         = white black bold
+directory            = grey  black bold
+disabled             = red   black bold
+empty_mixer_bar      = red   black
+empty_time_bar       = white black
+enabled              = white black bold
+entry_title          = grey  black bold
+entry                = white black
+error                = red   black bold
+file                 = white black
+filled_mixer_bar     = black red
+filled_time_bar      = black red
+frame                = grey  black bold
+info                 = grey  black bold
+legend               = white black
+marked_file          = red   black bold
+marked_info          = blue black bold
+marked_selected_file = red   black reverse
+marked_selected_info = white black bold
+message              = red   black bold
+playlist             = grey  black bold
+plist_time           = grey  black bold
+selected_directory   = red   black bold
+selected_file        = red   black
+selected_info        = white black bold
+selected_playlist    = red   black bold
+sound_parameters     = white black bold
+state                = red   black bold
+status               = white black
+time_left            = white black bold
+time_total_frames    = white black
+title                = red   black bold
+total_time           = white black bold
+window_title         = red   black

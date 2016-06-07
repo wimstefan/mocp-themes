@@ -1,0 +1,39 @@
+# based on hybrid
+# best viewed on shaded or black terminal
+
+
+background           = white   black
+current_time         = magenta default
+directory            = red     default
+disabled             = black   default
+empty_mixer_bar      = green   default
+empty_time_bar       = green   default
+enabled              = yellow  default
+entry_title          = red     default
+entry                = yellow  default
+error                = red     default
+file                 = green   default
+filled_mixer_bar     = black   green
+filled_time_bar      = black   green
+frame                = blue    default
+info                 = cyan    default
+legend               = magenta default
+marked_file          = green   default bold
+marked_info          = green   default bold
+marked_selected_file = cyan    default bold
+marked_selected_info = green   default bold
+message              = yellow  default
+playlist             = blue    default
+plist_time           = magenta default
+selected_directory   = blue    default
+selected_file        = cyan    default
+selected_info        = blue    default bold
+selected_playlist    = magenta default
+sound_parameters     = cyan    default
+state                = magenta default
+status               = magenta default
+time_left            = cyan    default
+time_total_frames    = magenta default
+title                = green   default
+total_time           = cyan    default
+window_title         = green   default

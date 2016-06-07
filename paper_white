@@ -1,0 +1,38 @@
+# paper_white theme for MOC by orveldv (version 2)
+# 06/May/2007
+
+background           = white   white   normal
+current_time         = white   white   bold
+directory            = white   white   bold
+disabled             = cyan    white   normal
+empty_mixer_bar      = black   white   bold
+empty_time_bar       = white   white   normal
+enabled              = blue    white   bold
+entry                = black   white   normal
+entry_title          = black   cyan    normal
+error                = red     white   normal
+file                 = white   white   bold
+filled_mixer_bar     = cyan    default bold
+filled_time_bar      = white   default bold
+frame                = black   white   normal
+info                 = cyan    white   bold
+legend               = white   white   bold
+marked_file          = blue    white   normal
+marked_info          = green   black   bold
+marked_selected_file = cyan    black   bold
+marked_selected_info = green   black   bold
+message              = magenta white   normal
+playlist             = cyan    white   bold
+plist_time           = white   cyan    bold
+selected_directory   = white   black   bold
+selected_file        = white   black   bold
+selected_info        = blue    black   bold
+selected_playlist    = white   black   bold
+sound_parameters     = black   white   normal
+state                = red     white   blink
+status               = white   cyan    bold
+time_left            = cyan    white   bold
+time_total_frames    = black   white   normal
+title                = blue    white   normal
+total_time           = black   white   bold
+window_title         = black   white   normal

@@ -1,0 +1,37 @@
+# Yellow/Red theme - mostly Yellow. By Stefan Wimmer
+
+background           = red     default
+current_time         = yellow  default
+directory            = yellow  default
+disabled             = red     default dim
+empty_mixer_bar      = black   red
+empty_time_bar       = yellow  default
+enabled              = yellow  default bold
+entry_title          = yellow  default
+entry                = yellow  default
+error                = cyan    default
+file                 = yellow  default
+filled_mixer_bar     = black   yellow
+filled_time_bar      = default yellow
+frame                = red     default
+info                 = yellow  default
+legend               = yellow  default
+marked_file          = red     default
+marked_info          = yellow  default bold,reverse
+marked_selected_file = red     yellow
+marked_selected_info = red     default bold
+message              = yellow  default
+playlist             = yellow  default
+plist_time           = yellow  default
+selected_directory   = red     default
+selected_file        = black   yellow
+selected_info        = yellow  default bold
+selected_playlist    = yellow  default
+sound_parameters     = yellow  default
+state                = yellow  default
+status               = yellow  default
+time_left            = yellow  default
+time_total_frames    = yellow  default
+title                = yellow  default
+total_time           = yellow  default
+window_title         = red     default

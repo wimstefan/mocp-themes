@@ -1,0 +1,39 @@
+# based on hybrid
+# best viewed on shaded or black terminal
+
+
+background           = white  black
+current_time         = yellow black bold
+directory            = white  black
+disabled             = blue   black bold
+empty_mixer_bar      = white  black
+empty_time_bar       = white  black
+enabled              = white  black bold
+entry_title          = yellow black bold
+entry                = white  blue
+error                = red    black bold
+file                 = white  black
+filled_mixer_bar     = white  blue  bold
+filled_time_bar      = black  blue
+frame                = yellow black bold
+info                 = blue   black bold
+legend               = white  black
+marked_file          = yellow black bold
+marked_info          = green  black bold
+marked_selected_file = green  black bold
+marked_selected_info = green  black bold
+message              = green  black bold
+playlist             = white  black bold
+plist_time           = white  black bold
+selected_directory   = yellow black bold
+selected_file        = green  black dim,underline
+selected_info        = blue   black bold
+selected_playlist    = green  black bold
+sound_parameters     = yellow black bold
+state                = yellow black bold
+status               = white  black
+time_left            = yellow black bold
+time_total_frames    = yellow black bold
+title                = green  black bold
+total_time           = white  black bold
+window_title         = yellow black bold
