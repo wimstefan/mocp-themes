@@ -85,42 +85,39 @@
 # If you don't specify some elements, the default values will be used.
 #
 # Here follows the default configuration:
-background		= default		default
-frame			= default		default
-window_title	= default		default
 
-directory		= blue		default	
-playlist		= yellow		default	bold
-file			= yellow	default bold
-
-marked_file		= cyan	default	bold
-marked_selected_file	= white		black	
-
-selected_directory	= magenta		black bold
-selected_playlist  = white		black
-selected_file	   = white		black
-
-info			= default		default
-selected_info		= default		black	bold
-marked_info		= default		default	bold
-marked_selected_info	= default		black	bold
-status			= default		default
-title			= default		default
-state			= default		default
-current_time		= white		default	bold
-time_left		= white		default	bold
-total_time		= white		default	bold
-time_total_frames	= white		default
-sound_parameters	= white		default	bold
-legend			= white		default
-disabled		= default		default	bold
-enabled			= white		default	bold
-empty_mixer_bar		= white		default
-filled_mixer_bar	= black		yellow
-empty_time_bar		= white		default
-filled_time_bar		= black		yellow
-entry			= white		default
-entry_title		= black		cyan
-error			= red		default
-message			= green		default
-plist_time		= white		default
+background           = default default
+current_time         = white   default bold
+directory            = blue    default
+disabled             = default default bold
+empty_mixer_bar      = white   default
+empty_time_bar       = white   default
+enabled              = white   default bold
+entry_title          = black   cyan
+entry                = white   default
+error                = red     default
+file                 = yellow  default bold
+filled_mixer_bar     = black   yellow
+filled_time_bar      = black   yellow
+frame                = default default
+info                 = default default
+legend               = white   default
+marked_file          = cyan    default bold
+marked_info          = default default bold
+marked_selected_file = white   black
+marked_selected_info = default black   bold
+message              = green   default
+playlist             = yellow  default bold
+plist_time           = white   default
+selected_directory   = magenta black   bold
+selected_file        = white   black
+selected_info        = default black   bold
+selected_playlist    = white   black
+sound_parameters     = white   default bold
+state                = default default
+status               = default default
+time_left            = white   default bold
+time_total_frames    = white   default
+title                = default default
+total_time           = white   default bold
+window_title         = default default
