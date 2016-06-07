@@ -1,0 +1,37 @@
+# Variant Red Theme by centralkidede
+
+background           = default default normal
+current_time         = black   white   bold
+directory            = white   default bold
+disabled             = black   default bold
+empty_mixer_bar      = default red     dim
+empty_time_bar       = white   default normal
+enabled              = white   default bold
+entry_title          = black   red     normal
+entry                = white   red     normal
+error                = red     default bold
+file                 = white   default normal
+filled_mixer_bar     = red     default normal
+filled_time_bar      = black   red     normal
+frame                = white   default normal
+info                 = red     default bold
+legend               = black   white   normal
+marked_file          = red     default bold
+marked_info          = red     default bold
+marked_selected_file = white   red     bold
+marked_selected_info = white   red     bold
+message              = red     default bold
+playlist             = white   default bold
+plist_time           = default default bold
+selected_directory   = white   red     bold
+selected_file        = white   red     normal
+selected_info        = red     default bold
+selected_playlist    = white   red     bold
+sound_parameters     = black   white   bold
+state                = black   white   bold
+status               = black   default normal
+time_left            = black   white   bold
+time_total_frames    = black   white   normal
+title                = black   white   bold
+total_time           = black   white   bold
+window_title         = white   default normal
