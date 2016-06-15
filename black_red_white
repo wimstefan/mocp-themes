@@ -86,6 +86,7 @@
 # If you don't specify some elements, the default values will be used.
 #
 ##############################################################################
+
 background           = white  black
 frame                = red    black bold
 window_title         = white  black reverse
