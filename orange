@@ -1,7 +1,7 @@
 ##############################################################################
-#                                                                            #
-#        Theme in yellow|red by Stefan Wimmer <wimstefan@gmail.com>          #
-#                                                                            #
+#
+# Theme in yellow|red by Stefan Wimmer <wimstefan@gmail.com>
+#
 ##############################################################################
 # The format of this file is:
 # Lines beginning with # are comments.
@@ -88,38 +88,37 @@
 ##############################################################################
 
 background           = red     default
-current_time         = yellow  default
+frame                = red     default
+window_title         = red     default
 directory            = yellow  default
+selected_directory   = red     default
+playlist             = yellow  default
+selected_playlist    = yellow  default
+file                 = yellow  default
+selected_file        = black   yellow
+marked_file          = red     default
+marked_selected_file = red     yellow
+info                 = yellow  default
+selected_info        = yellow  default bold
+marked_info          = yellow  default bold,reverse
+marked_selected_info = red     default bold
+status               = yellow  default
+title                = yellow  default
+state                = yellow  default
+current_time         = yellow  default
+time_left            = yellow  default
+total_time           = yellow  default
+time_total_frames    = yellow  default
+sound_parameters     = yellow  default
+legend               = yellow  default
 disabled             = red     default dim
-empty_mixer_bar      = black   red
-empty_time_bar       = yellow  default
 enabled              = yellow  default bold
+empty_mixer_bar      = black   red
+filled_mixer_bar     = black   yellow
+empty_time_bar       = yellow  default
+filled_time_bar      = default yellow
 entry_title          = yellow  default
 entry                = yellow  default
 error                = cyan    default
-file                 = yellow  default
-filled_mixer_bar     = black   yellow
-filled_time_bar      = default yellow
-frame                = red     default
-info                 = yellow  default
-legend               = yellow  default
-marked_file          = red     default
-marked_info          = yellow  default bold,reverse
-marked_selected_file = red     yellow
-marked_selected_info = red     default bold
 message              = yellow  default
-playlist             = yellow  default
 plist_time           = yellow  default
-selected_directory   = red     default
-selected_file        = black   yellow
-selected_info        = yellow  default bold
-selected_playlist    = yellow  default
-sound_parameters     = yellow  default
-state                = yellow  default
-status               = yellow  default
-time_left            = yellow  default
-time_total_frames    = yellow  default
-title                = yellow  default
-total_time           = yellow  default
-window_title         = red     default
-# vim:set ft=dosini

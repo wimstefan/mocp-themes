@@ -1,4 +1,8 @@
+##############################################################################
+#
 # Nightshade theme (Version 6) by Dreyeth (dreyeth@openmailbox.org)
+#
+##############################################################################
 
 background           = blue     black   normal
 frame                = magenta  black   normal
@@ -35,4 +39,3 @@ entry_title          = black    magenta normal
 error                = magenta  black   bold
 message              = blue     black   bold
 plist_time           = magenta  black   normal
-

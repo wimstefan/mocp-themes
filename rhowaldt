@@ -1,10 +1,6 @@
-# Thank you Gutterslob & pvsage from #! forums!
-# Example color theme for MOC.
-# You can use a theme by copying it to ~/.moc/themes directory and using
-# Theme config option or -T command line option.
+##############################################################################
 #
-# Fill free to make your own themes and send me them. It will be included in
-# official MOC releases or on the MOC web site.
+# Thank you Gutterslob & pvsage from #! forums!
 #
 # The format of this file is:
 # Lines beginning with # are comments.
@@ -15,48 +11,49 @@
 #
 # or
 #
+# colordef COLOR = RED GREEN BLUE
 #
 # Where names are case insensitive.
 #
 # ELEMENT is an element of MOC interface. This can be:
-# background         - default background for regions when nothing is displayed
-# frame              - frames for windows
-# window_title       - the title of the window (eg name of the current
-#                      directory)
-# directory          - a directory in the menu
-# selected_directory - a directory that is selected using arrows
-# playlist           - playlist file
-# selected_playlist  - see selected directory
-# file               - an ordinary file in the menu (mp3, ogg, ...)
-# selected_file      - see selected directory
-# marked_file        - a file that is currently being played
+# background           - default background for regions when nothing is displayed
+# frame                - frames for windows
+# window_title         - the title of the window (eg name of the current
+#                        directory)
+# directory            - a directory in the menu
+# selected_directory   - a directory that is selected using arrows
+# playlist             - playlist file
+# selected_playlist    - see selected directory
+# file                 - an ordinary file in the menu (mp3, ogg, ...)
+# selected_file        - see selected directory
+# marked_file          - a file that is currently being played
 # marked_selected_file - a file that is currently being played and is also
-#                      selected using arrows
-# info               - information shown at the right side of files
-# selected_info      - see selected directory
-# marked_info        - a file (its time) that is currently being played
+#                        selected using arrows
+# info                 - information shown at the right side of files
+# selected_info        - see selected directory
+# marked_info          - a file (its time) that is currently being played
 # marked_selected_info - a file (its time) that is currently being played
-#                      and is also selected using arrows
-# status             - the status line with a message
-# title              - the title of the file that is currently being played
-# state              - the state: play, stop, or paused (>, [], ||)
-# current_time       - current time of playing
-# time_left          - the time left to the end of playing the current file
-# total_time         - the length of the currently played file
-# time_total_frames  - the brackets outside the total time of a file ([10:13])
-# sound_parameters   - the frequency and bitrate numbers
-# legend             - "KHz" and "Kbps"
-# disabled           - disabled element ([STEREO])
-# enabled            - enabled element
-# empty_mixer_bar    - "empty" part of the volume bar
-# filled_mixer_bar   - "filled" part of the volume bar
-# empty_time_bar     - "empty" part of the time bar
-# filled_time_bar    - "filled" part of the time bar
-# entry              - place wher user can type a search query or a file name
-# entry_title        - the title of an entry
-# error              - error message
-# message            - information message
-# plist_time         - total time of displayed items
+#                       and is also selected using arrows
+# status               - the status line with a message
+# title                - the title of the file that is currently being played
+# state                - the state: play, stop, or paused (>, [], ||)
+# current_time         - current time of playing
+# time_left            - the time left to the end of playing the current file
+# total_time           - the length of the currently played file
+# time_total_frames    - the brackets outside the total time of a file ([10:13])
+# sound_parameters     - the frequency and bitrate numbers
+# legend               - "KHz" and "Kbps"
+# disabled             - disabled element ([STEREO])
+# enabled              - enabled element
+# empty_mixer_bar      - "empty" part of the volume bar
+# filled_mixer_bar     - "filled" part of the volume bar
+# empty_time_bar       - "empty" part of the time bar
+# filled_time_bar      - "filled" part of the time bar
+# entry                - place wher user can type a search query or a file name
+# entry_title          - the title of an entry
+# error                - error message
+# message              - information message
+# plist_time           - total time of displayed items
 #
 # FOREGOUND_COLOR and BACKGROUND_COLOR can have one of the following values:
 # black, red, green, yellow, blue, magenta, cyan, white, default (can be
@@ -75,50 +72,52 @@
 # You can specify a list of attributes separated by commas: attr1,attr2,attr3.
 # Don't use spaces anywhere in such a list.
 #
+# With colordef you can change the definition of a color. It works only if
 # your terminal supports it, if not those lines will be silently ignored.
 # COLOR must be a valid color name and the RED GREEN and BLUE are numbers
 # from 0 to 1000. Example:
 #
+# colordef red = 1000 0 0
 #
 # HINT: you have only 8 colors, but combined with attributes bold and/or
 # reversed you actually get more colors.
 #
 # If you don't specify some elements, the default values will be used.
+##############################################################################
 #
-# Replaces the default configuration:
 
 background           = default default
-current_time         = default default
+frame                = default default
+window_title         = default default
 directory            = blue    default
+selected_directory   = blue    default reverse
+playlist             = default default
+selected_playlist    = default default reverse
+file                 = default default
+selected_file        = default default reverse
+marked_file          = blue    default bold
+marked_selected_file = blue    default reverse
+info                 = default default
+selected_info        = default default
+marked_info          = blue    default bold
+marked_selected_info = blue    default bold
+status               = default default
+title                = blue    default bold
+state                = default default
+current_time         = default default
+time_left            = default default
+total_time           = default default
+time_total_frames    = default default
+sound_parameters     = default default
+legend               = default default
 disabled             = default default
-empty_mixer_bar      = default default
-empty_time_bar       = default default
 enabled              = blue    default bold
+empty_mixer_bar      = default default
+filled_mixer_bar     = default default reverse
+empty_time_bar       = default default
+filled_time_bar      = default default reverse
 entry                = default default
 entry_title          = default default
 error                = default default bold
-file                 = default default
-filled_mixer_bar     = default default reverse
-filled_time_bar      = default default reverse
-frame                = default default
-info                 = default default
-legend               = default default
-marked_file          = blue    default bold
-marked_info          = blue    default bold
-marked_selected_file = blue    default reverse
-marked_selected_info = blue    default bold
 message              = default default bold
-playlist             = default default
 plist_time           = default default
-selected_directory   = blue    default reverse
-selected_file        = default default reverse
-selected_info        = default default
-selected_playlist    = default default reverse
-sound_parameters     = default default
-state                = default default
-status               = default default
-time_left            = default default
-time_total_frames    = default default
-title                = blue    default bold
-total_time           = default default
-window_title         = default default

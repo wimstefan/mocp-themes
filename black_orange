@@ -1,38 +1,42 @@
+##############################################################################
+#
 # here's my theme for the great moc.
 # it's black/orange (on xterm it's black/yellow :-)
+#
+##############################################################################
 
 background           = white   black
-current_time         = white   black  bold
-directory            = white   black  bold
-disabled             = black   black  bold
-empty_mixer_bar      = white   black
-empty_time_bar       = white   black
-enabled              = white   black  bold
-entry_title          = yellow  black  bold
-entry                = white   black
-error                = yellow  black  bold
-file                 = white   black
-filled_mixer_bar     = black   yellow
-filled_time_bar      = white   yellow
 frame                = yellow  black
-info                 = yellow  black
-legend               = white   black
-marked_file          = yellow  black
-marked_info          = yellow  black  bold
-marked_selected_file = yellow  black  bold,reverse
-marked_selected_info = yellow  black  bold,reverse
-message              = yellow  black  bold
-playlist             = white   black
-plist_time           = white   black
-selected_directory   = black   yellow
-selected_file        = black   yellow
-selected_info        = yellow  black  bold
-selected_playlist    = black   yellow
-sound_parameters     = white   black  bold
-state                = yellow  black
-status               = white   black
-time_left            = white   black  bold
-time_total_frames    = white   black
-title                = yellow  black
-total_time           = white   black  bold
 window_title         = white   black
+directory            = white   black  bold
+selected_directory   = black   yellow
+playlist             = white   black
+selected_playlist    = black   yellow
+file                 = white   black
+selected_file        = black   yellow
+marked_file          = yellow  black
+marked_selected_file = yellow  black  bold,reverse
+info                 = yellow  black
+selected_info        = yellow  black  bold
+marked_info          = yellow  black  bold
+marked_selected_info = yellow  black  bold,reverse
+status               = white   black
+title                = yellow  black
+state                = yellow  black
+current_time         = white   black  bold
+time_left            = white   black  bold
+total_time           = white   black  bold
+time_total_frames    = white   black
+sound_parameters     = white   black  bold
+legend               = white   black
+disabled             = black   black  bold
+enabled              = white   black  bold
+empty_mixer_bar      = white   black
+filled_mixer_bar     = black   yellow
+empty_time_bar       = white   black
+filled_time_bar      = white   yellow
+entry                = white   black
+entry_title          = yellow  black  bold
+error                = yellow  black  bold
+message              = yellow  black  bold
+plist_time           = white   black
