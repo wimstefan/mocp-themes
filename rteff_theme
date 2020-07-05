@@ -1,0 +1,41 @@
+###########################################################
+#
+#                      Rteff Theme
+#
+# Email        rtefforg@gmail.com
+# GitHub       https://github.com/rteff
+# 
+##########################################################
+
+background				= default	default
+frame					= cyan   	black
+window_title			= cyan	black   bold,underline
+directory				= blue		black	bold
+selected_directory		= cyan		black	bold,underline
+playlist				= white		black	bold
+selected_playlist		= cyan		black	bold,underline
+file					= white		black	
+selected_file			= cyan      black	bold,underline
+marked_file				= grey		black	bold
+marked_selected_file	= grey		black	bold,underline
+info					= cyan		black	
+status					= blue		black	
+title					= blue		black	bold
+state					= cyan		black
+current_time			= grey   	black	
+time_left				= red		black	
+total_time				= white		black	
+time_total_frames		= white		black
+sound_parameters		= grey		black	bold
+legend					= white		black	bold
+disabled				= red		black
+enabled					= grey		black	bold
+empty_mixer_bar			= white		black	bold,underline
+filled_mixer_bar		= cyan		black	underline
+empty_time_bar			= white		black	underline
+filled_time_bar			= cyan		black	underline
+entry					= white		black	
+entry_title				= white		black
+error					= red		black	bold,underline
+message					= blue  	black	bold
+plist_time				= cyan		black	underline
