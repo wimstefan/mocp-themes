@@ -7,7 +7,7 @@
 # 
 ##########################################################
 
-background				= default	default
+background				= black	black
 frame					= cyan   	black
 window_title			= cyan	black   bold,underline
 directory				= blue		black	bold
